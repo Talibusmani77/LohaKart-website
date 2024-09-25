@@ -1074,6 +1074,7 @@ textarea {
 /* map    map */
 .map_body{
   padding-bottom: 80px;
+  
 }
 
 .map_tag{
@@ -1140,13 +1141,16 @@ footer {
   justify-content: space-evenly;
 }
 
-.link-column h3 {
-  margin: 0.5rem 0;
-  font-size: 20px;
+.link-column p a {
+  text-decoration: none;
+  color: #fff;
+  /* margin: 0.5rem 0; */
+  font-size: 18px;
 }
 
 .join-Lohakart {
   background-color: #be1800;
+  height: 200px;
   padding: 1rem;
   border-radius: 10px;
 }
@@ -1329,6 +1333,10 @@ footer {
 
     .map_tag{
       font-size: 40px;
+    }
+
+    .map_body{
+      padding-inline: 10px;
     }
   
   }
