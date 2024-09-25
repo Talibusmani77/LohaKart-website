@@ -597,13 +597,13 @@ dl, ol, ul {
 
 
 
-@media (max-width: 1300px) {
+@media (max-width: 768px) {
   .card-container {
     justify-content: center;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .card {
     width: 100%;
     max-width: 300px;
@@ -761,7 +761,7 @@ h1 {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .industry-grid {
     grid-template-columns: 1fr;
   }
@@ -1267,7 +1267,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 480px) {
     
   ol, ul {
     padding-left: 0rem;
