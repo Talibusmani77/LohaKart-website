@@ -761,7 +761,7 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
   .industry-grid {
     grid-template-columns: 1fr;
   }
